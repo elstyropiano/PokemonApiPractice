@@ -1,7 +1,114 @@
 {
-  "users": [],
-  "favouritesPokemons": [],
-  "stats": [],
-  "arenaMembers": [],
-  "newPokemons": []
+  "users": [
+    {
+      "name": "grzegorz",
+      "email": "hjasdhasd@o2.pol",
+      "password": "SS((99nnkk",
+      "id": 1
+    }
+  ],
+  "favouritesPokemons": [
+    {
+      "ability": "own-tempo",
+      "experience": 77,
+      "height": 12,
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/108.svg",
+      "name": "lickitung",
+      "speed": 30,
+      "weight": 655,
+      "wins": 0,
+      "loses": 0,
+      "id": 1
+    },
+    {
+      "ability": "god-mode",
+      "experience": 64,
+      "height": 7,
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/158.svg",
+      "name": "bulbasaurssad",
+      "speed": 45,
+      "weight": 69,
+      "wins": 0,
+      "loses": 0,
+      "id": 2
+    }
+  ],
+  "stats": [
+    {
+      "name": "charmander",
+      "experience": 72,
+      "height": 6,
+      "weight": 85,
+      "wins": 1,
+      "loses": 0,
+      "ability": "blaze",
+      "speed": 65,
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg",
+      "id": 1
+    },
+    {
+      "name": "bulbasaur",
+      "experience": 64,
+      "height": 7,
+      "weight": 69,
+      "wins": 0,
+      "loses": 1,
+      "speed": 45,
+      "ability": "overgrow",
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg",
+      "id": 2
+    },
+    {
+      "name": "gengar",
+      "experience": 260,
+      "height": 15,
+      "weight": 405,
+      "wins": 1,
+      "loses": 0,
+      "ability": "cursed-body",
+      "speed": 110,
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/94.svg",
+      "id": 3
+    },
+    {
+      "name": "bulbasaurssad",
+      "experience": 64,
+      "height": 7,
+      "weight": 69,
+      "wins": 0,
+      "loses": 1,
+      "speed": 45,
+      "ability": "god-mode",
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/158.svg",
+      "id": 4
+    }
+  ],
+  "arenaMembers": [
+    {
+      "ability": "cursed-body",
+      "experience": 250,
+      "height": 15,
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/94.svg",
+      "name": "gengar",
+      "speed": 110,
+      "weight": 405,
+      "wins": 0,
+      "loses": 0,
+      "id": 2
+    }
+  ],
+  "newPokemons": [
+    {
+      "name": "bulbasaurssad",
+      "experience": 64,
+      "height": 7,
+      "weight": 69,
+      "wins": 0,
+      "loses": 0,
+      "ability": "god-mode",
+      "speed": 45,
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/158.svg",
+      "id": 1
+    }
+  ]
 }
