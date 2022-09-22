@@ -29,9 +29,8 @@ const NewPokemonsButtons = ({
   } = useContext(Context)
 
   useEffect(() => {
-    console.log(newPokemonImg)
     getPokemonImage(data?.results[number]?.url)
-  }, [number, data, newPokemonsList])
+  }, [number, data])
 
   const pokemonNameToUpperCase = pokemonName =>
     `${pokemonName.substring(0, 1).toUpperCase()}${pokemonName.substring(
@@ -85,9 +84,9 @@ const NewPokemonsButtons = ({
 
   const postDataOnServer = async data => {
     await axios.post(`http://localhost:3000/newPokemons`, { ...data })
-    setPage(1)
     getStatsFromJsonServer()
     getNewPokemonList()
+    setPage(1)
   }
   const handleButton = e => {
     e.target.innerText === 'NEXT'
